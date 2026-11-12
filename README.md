@@ -1,26 +1,51 @@
-# Source Code
+# Indian Medicinal Leaf Classification
 
-This folder contains the Python source code used in the Indian Medicinal Leaf Classification project.
+## Project Overview
 
-The project uses deep learning and transfer learning to classify medicinal plant leaves into 25 different classes.
+This project focuses on the classification of Indian medicinal plant leaves using deep learning and transfer learning techniques.
 
-### Models Used
+Two pre-trained convolutional neural network architectures, DenseNet121 and VGG16, are implemented and compared to evaluate their performance in classifying medicinal leaves into 25 different classes.
+
+## Models Used
+
 - DenseNet121
 - VGG16
 
-### Tools and Libraries
+## Methodology
+
+1. Dataset collection and preparation
+2. Image resizing and preprocessing
+3. Dataset splitting into training, validation and testing sets (70:20:10)
+4. Transfer learning using DenseNet121 and VGG16
+5. Model training and evaluation
+6. Performance comparison
+
+## Technologies Used
+
 - Python
-- TensorFlow / Keras
+- TensorFlow and Keras
 - NumPy
+- Pandas
 - OpenCV
 - Matplotlib
 - Scikit-learn
 
-### Main Tasks
-- Image preprocessing
-- Dataset preparation
-- Model training
-- Model evaluation
-- Performance comparison
+## Repository Structure
 
-The main implementation and experiments are documented in the Jupyter notebook available in the `notebooks` folder.
+- `notebooks/` – Jupyter Notebook containing the project implementation.
+- `src/` – Python source files for preprocessing, model building and evaluation.
+- `figures/` – Sample images, training graphs and confusion matrices.
+- `results/` – Experimental results and evaluation metrics.
+- `models/` – Trained model weights and checkpoints.
+
+## Dataset
+
+Indian Medicinal Leaves Dataset – Kaggle.
+
+## Objective
+
+To implement and compare DenseNet121 and VGG16 for Indian medicinal leaf classification and analyse their performance using appropriate evaluation metrics.
+
+## Code Availability
+
+The complete implementation and experimental work are available in this repository.
